@@ -1,21 +1,27 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<VSTemplate Version="3.0.0" Type="Item" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" xmlns:sdk="http://schemas.microsoft.com/developer/vstemplate-sdkextension/2010">
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Item">
   <TemplateData>
-    <Name>RuleItemTemplate</Name>
-    <Description>RuleItemTemplate</Description>
-    <Icon>RuleItemTemplate.ico</Icon>
-    <TemplateID>4fd45d53-75aa-4335-ac76-a622d2d906c7</TemplateID>
+    
+    <DefaultName>Rule.cs</DefaultName>
+    <Name>Rule</Name>
+    <Description>Creates an empty Rule that derives from IValidationRules for validating your properties.</Description>
+    <Icon>RuleItemTemplate.png</Icon>
+    
     <ProjectType>CSharp</ProjectType>
-    <RequiredFrameworkVersion>2.0</RequiredFrameworkVersion>
+    <AppliesTo>CSharp + MultiTarget</AppliesTo>
+    <TemplateGroupID>CodeSharing-Native</TemplateGroupID>
+    <TemplateID>Microsoft.CSharp.Rule</TemplateID>
+
+    <SortOrder>10</SortOrder>
     <NumberOfParentCategoriesToRollUp>1</NumberOfParentCategoriesToRollUp>
-    <DefaultName>Class.cs</DefaultName>
+    <ShowByDefault>true</ShowByDefault>
+    <AppIdFilter>blend</AppIdFilter>
+    
   </TemplateData>
+  
   <TemplateContent>
-    <References>
-      <Reference>
-        <Assembly>System</Assembly>
-      </Reference>
-    </References>
-    <ProjectItem ReplaceParameters="true">Class.cs</ProjectItem>
+    <References />
+    <ProjectItem ReplaceParameters="true">Rule.cs</ProjectItem>
   </TemplateContent>
+  
 </VSTemplate>
