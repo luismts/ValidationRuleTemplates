@@ -52,13 +52,6 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Resources\icon.png">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-      <IncludeInVSIX>true</IncludeInVSIX>
-    </Content>
-    <Content Include="ItemTemplates\Formatter\FormatterIcon.png" />
-    <Content Include="ItemTemplates\Formatter\_Definitions\FormatterTemplate.vstemplate" />
-    <Content Include="ItemTemplates\Formatter\_preprocess.xml" />
     <None Include="packages.config" />
     <None Include="Properties\template-builder.props" />
     <None Include="source.extension.vsixmanifest">
@@ -66,10 +59,17 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="ItemTemplates\Formatter\FormatterIcon.png" />
+    <Content Include="ItemTemplates\Formatter\_Definitions\CSharp.vstemplate" />
+    <Content Include="ItemTemplates\Formatter\_preprocess.xml" />
     <Content Include="ItemTemplates\Rule\RuleIcon.png" />
-    <Content Include="ItemTemplates\Rule\_Definitions\RuleTemplate.vstemplate" />
+    <Content Include="ItemTemplates\Rule\_Definitions\CSharp.vstemplate" />
     <Content Include="ItemTemplates\Rule\_preprocess.xml" />
     <Content Include="Resources\License.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="Resources\icon.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>

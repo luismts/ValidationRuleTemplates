@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TemplateReport>
+  <ItemTemplates>
+    <ItemTemplate Path="ItemTemplates\Formatter\_Definitions\CSharp.vstemplate" Name="Formatter Template" Description="Creates an formatter Rule that derives from IValueFormatter for Formatting your properties." ProjectType="CSharp" ProjectSubType="" />
+    <ItemTemplate Path="ItemTemplates\Rule\_Definitions\CSharp.vstemplate" Name="Rule" Description="Creates an empty Rule that derives from IValidationRules for validating your properties." ProjectType="CSharp" ProjectSubType="" />
+  </ItemTemplates>
+  <ProjectTemplates />
+  <Snippets />
+</TemplateReport>
