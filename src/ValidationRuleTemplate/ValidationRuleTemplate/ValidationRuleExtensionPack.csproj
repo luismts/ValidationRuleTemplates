@@ -52,6 +52,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Snippets\ValidationRules\propvr.snippet">
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
     <None Include="packages.config" />
     <None Include="Properties\template-builder.props" />
     <None Include="source.extension.vsixmanifest">
@@ -65,6 +68,10 @@
     <Content Include="ItemTemplates\Rule\RuleIcon.png" />
     <Content Include="ItemTemplates\Rule\_Definitions\CSharp.vstemplate" />
     <Content Include="ItemTemplates\Rule\_preprocess.xml" />
+    <Content Include="Snippets\Snippets.pkgdef">
+      <IncludeInVSIX>true</IncludeInVSIX>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <Content Include="Resources\License.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <IncludeInVSIX>true</IncludeInVSIX>
