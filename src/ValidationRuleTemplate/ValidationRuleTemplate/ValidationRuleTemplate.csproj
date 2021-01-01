@@ -49,7 +49,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="icon.png">
+    <Content Include="Resources\icon.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
@@ -64,7 +64,7 @@
     <Content Include="ItemTemplates\Rule\RuleIcon.png" />
     <Content Include="ItemTemplates\Rule\_Definitions\RuleTemplate.vstemplate" />
     <Content Include="ItemTemplates\Rule\_preprocess.xml" />
-    <Content Include="License.txt">
+    <Content Include="Resources\License.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>

@@ -5,10 +5,10 @@
     <DisplayName>Validation Rule Template</DisplayName>
     <Description xml:space="preserve">Rule item template to use with Plugin.ValidationRules</Description>
     <MoreInfo>https://github.com/luismts/ValidationRulesPlugin</MoreInfo>
-    <License>License.txt</License>
+    <License>Resources\License.txt</License>
     <GettingStartedGuide>https://github.com/luismts/ValidationRulesPlugin</GettingStartedGuide>
-    <Icon>icon.png</Icon>
-    <PreviewImage>icon.png</PreviewImage>
+    <Icon>Resources\icon.png</Icon>
+    <PreviewImage>Resources\icon.png</PreviewImage>
     <Tags>validation, valid, rules, validation rule, puglin.validationrule, plugin, xamarin, ios, android, xamarin.forms, netstandard</Tags>
   </Metadata>
   <Installation>
@@ -20,8 +20,7 @@
     <Dependency d:Source="Installed" Id="Microsoft.NetStandard.CSharp.ProjectTemplates" DisplayName="C# .NETStandard Project Template" d:InstallSource="Download" Version="[2.0,]" />
   </Dependencies>
   <Assets>
-    <Asset Type="Microsoft.VisualStudio.ItemTemplate" d:Source="File" Path="ItemTemplates" d:TargetPath="ItemTemplates\CSharp\ValidationRules\1033\Formatter.zip" />
-    <Asset Type="Microsoft.VisualStudio.ItemTemplate" d:Source="File" Path="ItemTemplates" d:TargetPath="ItemTemplates\CSharp\ValidationRules\1033\Rule.zip" />
+    <Asset Type="Microsoft.VisualStudio.ItemTemplate" Path="Output\ItemTemplates" />
   </Assets>
   <Prerequisites>
     <Prerequisite Id="Microsoft.VisualStudio.Component.CoreEditor" Version="[15.0,17.0)" DisplayName="Visual Studio core editor" />
