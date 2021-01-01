@@ -44,6 +44,8 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="ItemTemplates\Formatter\Formatter.cs" />
+    <Compile Include="ItemTemplates\Rule\Rule.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -51,11 +53,14 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="ItemTemplates\CSharp\ValidationRules\1033\Formatter.zip">
+    <Content Include="ItemTemplates\Formatter.zip">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="ItemTemplates\CSharp\ValidationRules\1033\Rule.zip">
+    <Content Include="ItemTemplates\Formatter\FormatterIcon.png" />
+    <Content Include="ItemTemplates\Formatter\_Definitions\FormatterTemplate.vstemplate" />
+    <Content Include="ItemTemplates\Formatter\_preprocess.xml" />
+    <Content Include="ItemTemplates\Rule.zip">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
@@ -64,6 +69,9 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="ItemTemplates\Rule\RuleIcon.png" />
+    <Content Include="ItemTemplates\Rule\_Definitions\RuleTemplate.vstemplate" />
+    <Content Include="ItemTemplates\Rule\_preprocess.xml" />
     <Content Include="License.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <IncludeInVSIX>true</IncludeInVSIX>
