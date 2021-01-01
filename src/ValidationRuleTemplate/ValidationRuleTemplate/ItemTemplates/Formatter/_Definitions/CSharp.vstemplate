@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="utf-8"?>
 <VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Item">
   <TemplateData>
     <DefaultName>Formatter.cs</DefaultName>
@@ -14,8 +13,10 @@
     <ShowByDefault>true</ShowByDefault>
     <AppIdFilter>blend</AppIdFilter>
   </TemplateData>
+  
   <TemplateContent>
     <References />
     <ProjectItem ReplaceParameters="true">Formatter.cs</ProjectItem>
   </TemplateContent>
+  
 </VSTemplate>
