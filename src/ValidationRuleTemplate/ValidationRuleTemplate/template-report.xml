@@ -5,5 +5,7 @@
     <ItemTemplate Path="ItemTemplates\Rule\_Definitions\CSharp.vstemplate" Name="Rule" Description="Creates an empty Rule that derives from IValidationRules for validating your properties." ProjectType="CSharp" ProjectSubType="" />
   </ItemTemplates>
   <ProjectTemplates />
-  <Snippets />
+  <Snippets>
+    <Snippet Title="Validation Rule Property" Description="Define a validatable property." Shortcut="propvr" Path="Snippets\ValidationRules\propvr.snippet" />
+  </Snippets>
 </TemplateReport>

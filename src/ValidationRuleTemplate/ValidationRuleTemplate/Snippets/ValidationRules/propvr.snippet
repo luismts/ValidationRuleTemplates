@@ -1,17 +1,16 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<CodeSnippets
-    xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
-  <CodeSnippet Format="1.0.0">
-    <Header>
+<CodeSnippet Format="1.1.0" xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <Header>
       <Title>Validation Rule Property</Title>
       <Shortcut>propvr</Shortcut>
       <Author>@luismatosluna</Author>
-      <Description>Define a validatable property.</Description>
+      <Description>Define a "Validatable" property.</Description>
       <SnippetTypes>
         <SnippetType>Expansion</SnippetType>
       </SnippetTypes>
-    </Header>
-    <Snippet>
+  </Header>
+  
+  <Snippet>
       <Declarations>
         <Literal>
           <ID>type</ID>
@@ -27,6 +26,5 @@
       <Code Language="csharp">
         <![CDATA[public Validatable<$type$> $PropertyName$ { get; set; }$end$]]>
       </Code>
-    </Snippet>
-  </CodeSnippet>
-</CodeSnippets>
+  </Snippet>
+</CodeSnippet>
