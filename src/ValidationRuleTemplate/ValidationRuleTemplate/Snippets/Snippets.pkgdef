@@ -1,5 +1,6 @@
-﻿; Replace "JavaScript" with any supported languages
-; Languages: "Basic", "C/C++", "CSharp", "CSS", "HTML", "JavaScript"
+﻿// Replace "JavaScript" with any supported languages
+// Languages: "Basic", "C/C++", "CSharp", "CSS", "HTML", "JavaScript"
 
-﻿[$RootKey$\Languages\CodeExpansions\CSharp\Paths]
-"ValidationRules"="$PackageFolder$\ValidationRules"
+// C# Snippets
+[$RootKey$\Languages\CodeExpansions\CSharp\Paths]
+"ValidationRules"="$PackageFolder$\ValidationRules\"
