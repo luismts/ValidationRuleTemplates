@@ -5,17 +5,11 @@ namespace $rootnamespace$
     public class $safeitemname$<T> : IValueFormatter<T>
     {
 
-        public bool Format(T value)
+        public T Format(T value)
         {
-            if (value == null)
-            {
-                return false;
-            }
+            // Your format goes here
 
-            // Your implementation goes here
-
-            
-            return true;
+            return value;
         }
     }
 
